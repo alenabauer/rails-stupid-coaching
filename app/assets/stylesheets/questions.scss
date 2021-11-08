@@ -1,0 +1,37 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+form {
+  display: flex;
+  height: 40px;
+  border-radius: 8px;
+  width: 40vw;
+  #inputText {
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+    border-right: none;
+    width: 80%;
+  }
+  #btnSubmit {
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+    font-size: 20px;
+    background-color: rgb(16, 96, 172);
+    color: white;
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(81, 128, 172);
+    }
+  }
+}
+
+.pQuestion, .pAnswer {
+  border-left: 8px rgb(184, 184, 184) solid;
+  padding: 2px 16px 8px;
+  margin: 16px auto;
+}
+
+.pAnswer {
+  background-color: lightyellow;
+}
